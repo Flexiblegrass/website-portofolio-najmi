@@ -14,7 +14,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 15px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +23,13 @@ body {
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
     border-bottom: 1px solid rgba(147, 59, 255, 0.2);
+}
+
+.tentang h1, 
+.skills h1,
+.portofolio h1,
+.kontak h1 {
+    padding:-100px;
 }
 
 .nama {
